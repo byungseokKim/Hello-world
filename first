@@ -1,0 +1,10 @@
+#include<stdio.h>
+void main()
+{
+	int a, b, c=0 ;
+	
+	a=1, b=2 ;
+	c = a+b ;
+	
+	printf("%d 와 %d의합은 %d이다.\n", a, b, c) ;
+}	
