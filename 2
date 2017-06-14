@@ -1,0 +1,12 @@
+#include<stdio.h>
+void main()
+{
+	char ch;
+	printf("문자 1개 입력 \n") ;
+	ch=getchar(); 
+	printf("입력된 문자는 %d입니\n", ch) ;
+	putchar('A') ;
+	putchar('\n') ;
+	putchar('\07');
+	putchar(0x042) ;
+}
